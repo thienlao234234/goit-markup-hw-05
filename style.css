@@ -605,8 +605,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	
-	
 	width: 408px;
+	min-height: 576px;
 	min-height: 584px;
   
 	background-color: var(--modal-bg-color);
