@@ -19,7 +19,6 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- Heder -->
     <header class="page-header">
       <div class="container header-container">
         <nav class="page-nav">
@@ -28,7 +27,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
           >
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link link active" href="./index.html">Studio</a>
+              <a class="menu-link link" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
               <a class="menu-link link active" href="./portfolio.html"
@@ -238,7 +237,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
                 <div class="portfolio-thumb">
                   <img
                   class="image"
-                  src="./images//organic-food.jpg"
+                  src="./images/organic-food.jpg"
                   alt="girl with shopper"
                   width="360"
                 />
@@ -343,6 +342,18 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <div class="footer-form-wrapper">
+            <p class="footer-form-title">Subscribe</p>
+            <label for="footer-user-email"></label>
+            <input class="footer-form-field" type="text" id="footer-user-email" name="email" placeholder="E-mail">
+          </div>
+          <button class="footer-form-btn" type="submit">Subscribe
+            <svg class="footer-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#subscribe"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
